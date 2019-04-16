@@ -1,0 +1,2 @@
+-r requirements.txt
+ptvsd~=4.2.7
