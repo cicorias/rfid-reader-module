@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "rfidreader attach nix",
+      "type": "python",
+      "request": "attach",
+      "port": 5678,
+      "host": "localhost",
+      "logToFile": false,
+      "redirectOutput": true,
+      "pathMappings": [
+        {
+          "localRoot": "${workspaceFolder}/modules/rfidreader/",
+          "remoteRoot": "/app/"
+        }
+      ],
+      "windows": {
+        "pathMappings": [
+          {
+            "localRoot": "c:\\g\\venv\\rfid\\modules\\rfidreader\\",
+            "remoteRoot": "/app"
+          }
+        ]
+      }    
+    }
+  ]
+}
