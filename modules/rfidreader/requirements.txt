@@ -1,1 +1,2 @@
 azure-iothub-device-client~=1.4.6
+evdev~=1.2.0
